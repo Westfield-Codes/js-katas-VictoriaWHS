@@ -75,6 +75,10 @@ else alert("Alright, you want " + scoops + " scoops of " + flavor);
 
 
 /* Prompt */
-
+var pettype= prompt ("What pet type do you have?");
+// make a variable for pet name, prompt user for it
+var petname= prompt("whats their name?");
+// alert "You have a pet type named pet name 
+confirm("so you have a " + pettype + " named " + petname);
 
 /* Prompt with Conditional */
