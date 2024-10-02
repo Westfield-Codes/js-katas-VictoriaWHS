@@ -18,6 +18,23 @@ alert(color + "is a nice color!");
 
 
 /* AGE */
+/* AGE KATAS */
+
+/* Var Alert */
+// make an integer variable for age, set it equal to your age
+var age= 16;
+// make a string variable for name, set it to your name
+var myname= "Victoria";
+// alert name is age years old
+alert(myname + " is " + age + " years old" );
+/* Var Alert Prompt */
+// make an integer variable for age, prompt user for their age
+var myage=prompt("How old are you?");
+// make a string variable for name, prompt user for their name
+var myname=prompt("What is your name?");
+// alert name is age years old
+if (myage > 16) alert("You dont look that old!");
+else alert(myname + " is " + myage + " years old");
 
 /* No Prompt */
 
@@ -34,9 +51,22 @@ alert(color + "is a nice color!");
 
 
 /* Prompt */
-
+/* Var Alert Prompt */
+// make a string variable for ice cream flavor, prompt user for it
+var flavor= prompt(" What is your favorite flavor of icecream?");
+// make an integer variable for scoops, prompt user for it
+var scoops= prompt("How many scoops do you want?");
+// alert "You want " scoops "scoops of " flavor
+alert("You want "+ scoops + " scoops of " + flavor);
 
 /* Prompt with Conditional */
+var flavor= prompt("What flavor do you want?");
+// make an integer variable for scoops, prompt user for it
+var scoops= prompt("How many scoops do you want?");
+// if scoop is creater than three, alert ("Max 3 scoops!")
+if (scoops > 3) alert("MAX 3 SCOOPS! THE ICECREAM THEIF HAS STOLLEN MOST OF OUR ICECREAM");
+// otherwise alert "You want " scoops "scoops of " flavor
+else alert("Alright, you want " + scoops + " scoops of " + flavor);
 
 
 /* PET */

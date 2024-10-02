@@ -1,17 +1,9 @@
-/* Variable and Alert Katas */
-// These katas do not involve functions and are very basic. 
-
-/* COLOR KATAS */
-
-/* Var Alert */
-// make a string variable for a color, set it equal to your favorite
-// alert the message" "My favorite color is " plus the color
-
-/* Var Alert Prompt */
-// make a string variable for color, prompt the user for their favorite
-// alert color " is a nice color!"
-
 /* Var Alert Prompt Conditional */
-// make a variable for color, prompt the user for their favorite
-// if user enters "black" alert "Black is not really a color." 
-// otherwise alert color " is a nice color!"
+// make a string variable for ice cream flavor, prompt user for it
+var flavor= prompt("What flavor do you want?");
+// make an integer variable for scoops, prompt user for it
+var scoops= prompt("How many scoops do you want?");
+// if scoop is creater than three, alert ("Max 3 scoops!")
+if (scoops > 3) alert("MAX 3 SCOOPS! THE ICECREAM THEIF HAS STOLLEN MOST OF OUR ICECREAM");
+// otherwise alert "You want " scoops "scoops of " flavor
+else alert("Alright, you want " + scoops + " scoops of " + flavor);
